@@ -1,0 +1,202 @@
+/*===============================================
+
+    Florence Hart potfolio Site Coding Practice
+
+    Author: Praises Tula [ @PraisesPJMT ]
+    Contact:    praisesmusa@outlook.com
+                +2348085852828
+    Date:       14.04.2022 => 01:33am
+
+===============================================*/
+
+/**********UNIVERSAL CODE***************/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+}
+
+body {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+p.clear {
+    clear: both;
+}
+/**********HEADER STYLES CODE***************/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    color: white;
+}
+div#invisible {
+    visibility: hidden;
+    width: 100%;
+    height: 70px;
+}
+legend#potname {
+    margin: 20px 40px;
+    font-size: 1.8em;
+    font-weight: 500;
+    float: left;
+}
+nav#rightnav {
+    float: right;
+}
+nav {
+    float: right;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+    margin-left: 15px;    
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+nav ul li a:active {
+    border-bottom: 2px solid white;
+}
+div#social {
+    float: right;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+#social a {
+    text-decoration: none;
+    float: right;
+}
+#social a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+/*img.invert {
+    filter: brightness(0) invert(1);
+}*/
+/**********FOOTER STYLES CODE***************/
+footer {
+    text-align: center;
+}
+div#questions {
+    font-size: 2em;
+    font-weight: 100;
+    margin: 40px auto;
+}
+footer p {
+    font-size: 1.05em;
+    margin-bottom: 800px;
+}
+footer span {
+    text-decoration: underline;
+    color: rgb(173, 173, 173);
+
+}
+
+/**********INDEX STYLES CODE***************/
+div#body {
+    width: 70%;
+    margin: 0 auto;
+}
+.note {
+    font-size: 2.4em;
+    font-weight: 500;
+    margin: 60px 0 30px;
+    word-spacing: .15em;
+}
+.note1 {
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 120px 0;
+    word-spacing: .2em;
+    line-height: 1.3em;
+}
+.emphasize {
+    font-size: 1.1em;
+    font-style: italic;
+}
+.emphasize a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: rgb(173, 173, 173);
+}
+div.base {
+    display: flex;
+    margin: 100px 0;
+}
+div.base img {
+    width: 60%;
+    float: left;
+}
+div.base p {
+    float: right;
+    margin: 0 30px;
+    font-size: .9em;
+    line-height: 2em;
+}
+div.profile {
+    margin: 50px 0;
+}
+div.prof-list {
+    display: flex;
+    margin: 100px 0;
+}
+div.prof-name {
+    float: left;
+    width: 50%;
+    font-size: 2em;
+}
+div.prof-details {
+    float: right;
+    width: 50%;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 2.1em;
+}
+div.image img {
+    width: 100%;
+}
+div.note2 {
+    display: block;
+    width: 70%;
+    float: right;
+    margin-bottom: 100px;
+}
+div.note2 img {
+    width: 100%;
+}
+div.note3 {
+    width: 70%;
+}
+div#style1 {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 2em;
+    margin: 30px 0;
+}
+div#style2 {
+    font-style: italic;
+    font-weight: 800;
+}
+/**********LOOKBOOK STYLES CODE************/
+
+/**********BLOG STYLES CODE****************/
+
+/**********CONTACT STYLES CODE************/
+
+/**********HEADER STYLES CODE*************/
