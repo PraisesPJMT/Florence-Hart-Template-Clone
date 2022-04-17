@@ -39,7 +39,7 @@ header {
     color: white;
 }
 div#invisible {
-    visibility: hidden;
+    visibility: visible;
     width: 100%;
     height: 70px;
 }
@@ -196,8 +196,64 @@ div#style2 {
 /**********LOOKBOOK STYLES CODE************/
 
 /**********BLOG STYLES CODE****************/
-
-
+#blog {
+    margin: 50px 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30%;
+    row-gap: 20%;
+}
+.post {
+    
+}
+.postdate {
+    font-size: 1em;
+}
+.postheader {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 20px 0 30px 0;
+}
+.postextract {
+    line-height: 2;
+}
+.readme {
+    margin-top: 20px;
+}
+.readme a {
+    color:rgb(173, 173, 173);
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+#entry {
+    margin: 60px 30px;
+}
+.entryblock {
+    width: 80%;
+    margin: 0 auto;
+}
+.entryinfo {
+    margin-bottom: 30px;
+}
+.entryheader {
+    margin: 40px 0 80px 0;
+    font-size: 3em;
+    font-weight: 300;
+}
+.entrypost {
+    line-height: 2;
+    word-spacing: .2em;
+    margin: 15px 0;
+}
+.authorname {
+    margin: 40px 0;
+}
+#navigation {
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin: 60px 30px 100px;
+    display: flex;
+    justify-content: space-between;
+}
 /**********CONTACT STYLES CODE************/
 .form {
     max-width: 50%;
