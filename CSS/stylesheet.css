@@ -198,5 +198,58 @@ div#style2 {
 /**********BLOG STYLES CODE****************/
 
 /**********CONTACT STYLES CODE************/
+.form {
+    max-width: 50%;
+    /*border: 1px solid white;*/
+    color: white;
+    margin: 100px auto 150px auto;
+}
+
+form h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin: 40px 0;
+}
+form p {
+    font-size: 1rem;
+    line-height: 2;
+    margin: 40px 0;
+}
+input {
+    height: 40px;
+}
+input, textarea {
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+    width: 100%;
+    margin: 10px 0;
+
+    font-size: 1.2rem;
+}
+input[type="text"] {
+    padding-left: 10px;
+}
+textarea {
+    height: 100px;
+    padding: 10px;
+}
+input[type="submit"] {
+    background-color: rgb(173, 173, 173);
+    color: white;
+    height: 80px;
+    width: 120px;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+.email, .message {
+    margin: 10px 0;
+}
+.block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-bottom: 10px;
+}
 
 /**********HEADER STYLES CODE*************/
